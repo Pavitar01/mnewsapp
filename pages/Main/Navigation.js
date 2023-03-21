@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
-import { Typeahead } from "react-bootstrap-typeahead";
 import { debounce } from "lodash";
 import "react-bootstrap-typeahead/css/Typeahead.css";
 import News from "./News";
@@ -15,7 +14,6 @@ const Navigation = () => {
     { label: "Sci/Fi", value: "sci" },
     { label: "Tech", value: "technology" },
     { label: "Health", value: "health" },
-    { label: "Politics", value: "politics" },
   ];
   //typeahead list
   const typeahead = [
@@ -84,7 +82,7 @@ const Navigation = () => {
               <div className="d-flex align-items-center">
                 <input
                   list="typeahead"
-                  placeholder="Search by keyword"
+                  placeholder="Search Topic"
                   className="mr-sm-2"
                   maxResults={3}
                   onChange={handleSearch}
@@ -105,7 +103,7 @@ const Navigation = () => {
         </Navbar.Collapse>
       </Navbar>
 
-      <div className="d-flex align-items-center col-md-3 ml-auto">
+      {/* <div className="d-flex align-items-center col-md-3 ml-auto">
         <DatePicker
           selected={date}
           onChange={(e) => setDate(e)}
@@ -114,13 +112,13 @@ const Navigation = () => {
           className="form-control mr-sm-2"
         />
         <Button
-          variant="outline-light"
+          variant="outline-dark"
           onClick={() => setPick(date.toISOString())}
           disabled={!date}
         >
           Pick
         </Button>
-      </div>
+      </div> */}
 
       <News query={inp} date={pick} />
     </>
