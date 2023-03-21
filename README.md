@@ -22,7 +22,7 @@ After, successfully fire the website:
 ```bash
 1. A homepage, that displays the trending news articles from various categories, such as business, entertainment, sports, etc.
 2. Clicking on a news article should take the user to a page that displays the full article.
-3. More Category Dropdown menu is for to filter the news articles by particular category.
-4. A search bar that allows users to search for news articles by keyword or topics( Debouncing, Typeahead is used ).
-5. Also have features like client-side pagination and auto sorting for the news articles.
+3. More Category Dropdown menu is to filter the news articles by particular category.
+4. A search bar that allows users to search news articles by keyword or topics( Debouncing, Typeahead is used ).
+5. Also have features like client-side pagination and auto sorting the news articles.
 ```
