@@ -35,5 +35,5 @@ After, successfully fire the website:
 
 
 
-Overall Score from Google Loght House:<h1 style="color:green">91</h1>
+Overall Score from <mark>Google Light</mark> House:<h1 style="color:green">91</h1>
 <h3>Trying to do better</h3>
