@@ -6,8 +6,14 @@ First, install the dependencies:
 ```bash
 npm i
 ```
+Second, run this command to avoid error "'next' is not recognized as an internal or external command,"
+```bash
+npm install next react react-dom
+# or
+yarn add next react react-dom
+```
 
-Second, run the development server:
+Third, run the development server:
 ```bash
 npm run dev
 # or
