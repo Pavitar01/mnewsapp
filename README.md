@@ -32,3 +32,7 @@ After, successfully fire the website:
 4. A search bar that allows users to search news articles by keyword or topics( Debouncing, Typeahead is used ).
 5. Also have features like client-side pagination and auto sorting the news articles.
 ```
+
+
+
+Overall Score from Google Loght House:<h1 style="color:green">91</h1>
