@@ -36,4 +36,6 @@ After, successfully fire the website:
 
 
 Overall Score from <mark>Google Light</mark> House:<h1 style="color:green">91</h1>
+when i am using <Image> score :<h1>91</h1>
+when i am using <img> score :<h1>89/h1>
 <h3>Trying to do better</h3>
